@@ -1,7 +1,16 @@
 .container {
   padding: 0 2rem;
 }
-
+.navbar {
+  position: absolute;
+  color: black;
+  right: 5%;
+  top: 5%;
+  background: transparent;
+}
+.navbar a {
+  padding: 1rem;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
