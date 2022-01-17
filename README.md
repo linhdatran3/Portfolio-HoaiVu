@@ -14,5 +14,8 @@ cd backend
 yarn develop
 ```
 
+### Back-end admin accont
+- Username: `dev@gmail.com`
+- Password: `Doyoul1kebug`
 
 
