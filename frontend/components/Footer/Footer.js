@@ -17,7 +17,7 @@ const Footer = () => {
         color: "white",
         padding: 5,
         width: "100%",
-        position: "absolute",
+        position: "relative",
         bottom: 0,
         justifyContent: "center",
       }}

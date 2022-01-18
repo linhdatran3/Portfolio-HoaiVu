@@ -1,11 +1,13 @@
 import List from "../components/List";
 import Title from "../components/Title";
+import Layout from "../components/Layout";
+
 const Prints = () => {
   return (
-    <div>
+    <Layout>
       <Title title="READ AND FEEL" />
       <List />
-    </div>
+    </Layout>
   );
 };
 
