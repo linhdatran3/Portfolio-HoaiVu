@@ -1,0 +1,13 @@
+.header {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  padding: 100px;
+  /* Tai xao no khong hoat dong T_T */
+}
