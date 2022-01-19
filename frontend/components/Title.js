@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 const Title = (props) => {
   return (
     <div style={{ textAlign: "center", padding: " 2rem 0" }}>
-      <Typography variant="h4">{props.title}</Typography>
+      <Typography variant="h5">{props.title}</Typography>
     </div>
   );
 };

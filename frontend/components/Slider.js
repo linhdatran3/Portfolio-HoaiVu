@@ -37,7 +37,7 @@ const Slider = () => {
           className="mySwiper"
         >
           <SwiperSlide className={styles.swiperSlide}>
-            <Image src={slider1} alt="slider 1" layout="fill" />
+            <Image src={slider1} alt="slider 1" />
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
             <Image src={slider2} alt="slider 2" />
