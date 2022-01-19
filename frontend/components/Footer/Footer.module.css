@@ -1,0 +1,15 @@
+.footer {
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .footer > .logo {
+  width: 100%;
+  margin: auto;
+} */
+
