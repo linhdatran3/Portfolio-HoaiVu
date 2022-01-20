@@ -5,8 +5,6 @@ import { ContactForm } from "../components/ContactForm";
 const Prints = () => {
   return (
     <Layout>
-      <Title title="READ AND FEEL" />
-      <List />
       <ContactForm />
     </Layout>
   );
