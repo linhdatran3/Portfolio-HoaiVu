@@ -1,14 +1,15 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import logo_sm from "../../public/hoaivu_logo_sm.png";
-import footerStyle from "./Footer.module.css";
+import { Box, Link, Typography } from "@mui/material";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
+import footerStyle from "./Footer.module.css";
+import logo_sm from "../../public/hoaivu_logo_sm.png";
+
 const Footer = () => {
   return (
     <Box
@@ -36,7 +37,14 @@ const Footer = () => {
         <TwitterIcon />
         <LinkedInIcon />
       </Box>
-      <Typography variant="body2">{"Copyright © "}</Typography>
+      <Typography variant="body2" color="textSecondary" align="center">
+        {"Copyright © "}
+        <Link color="inherit" href="https://material-ui.com/">
+          Your Website
+        </Link>{" "}
+        {new Date().getFullYear()}
+        {"."}
+      </Typography>
     </Box>
   );
 };
