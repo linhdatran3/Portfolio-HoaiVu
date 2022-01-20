@@ -8,7 +8,11 @@ const Layout = ({ children }) => {
         <title>Portfolio Hoai VU</title>
       </Head>
       <Header />
-      <div style={{ marginTop: "60px" }}>{children}</div>
+      <div
+      // style={{ marginTop: "60px" }}
+      >
+        {children}
+      </div>
       <Footer />
     </>
   );
