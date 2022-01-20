@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import { ContactForm } from "../components/ContactForm";
 
 import Navbar from "../components/Navbar";
-import Slider from "../components/Slider.js";
+import { Slider } from "../components/Slider";
 import ImageMasonry from "../components/ImageMasonry";
 import Title from "../components/Title";
 import About from "../components/About/About";
