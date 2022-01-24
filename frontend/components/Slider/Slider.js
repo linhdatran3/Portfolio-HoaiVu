@@ -9,8 +9,6 @@ import styles from "./Slider.module.css";
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
-import Navbar from "../Navbar";
-
 import Image from "next/image";
 import slider1 from "../../public/1.jpg";
 import slider2 from "../../public/2.jpg";
@@ -23,7 +21,6 @@ SwiperCore.use([Pagination, Autoplay, Navigation]);
 const Slider = () => {
   return (
     <>
-      <Navbar />
       <div className={styles.swiper}>
         <Swiper
           pagination={{
