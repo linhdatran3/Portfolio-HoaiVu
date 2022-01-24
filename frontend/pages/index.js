@@ -9,6 +9,7 @@ import { Slider } from "../components/Slider";
 import ImageMasonry from "../components/ImageMasonry";
 import Title from "../components/Title";
 import About from "../components/About/About";
+import Footer from "../components/Footer/Footer";
 export default function Home() {
   return (
     <>
@@ -24,6 +25,8 @@ export default function Home() {
       <Title title="MY FAVORITE PHOTOS" />
       <ImageMasonry />
       <About />
+      <ContactForm />
+      <Footer />
     </>
   );
 }
