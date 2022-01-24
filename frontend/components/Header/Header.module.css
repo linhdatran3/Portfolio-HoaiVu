@@ -13,8 +13,20 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  box-shadow: none;
 }
-.logo {
-  padding: 100px;
-  /* Tai xao no khong hoat dong T_T */
+.image {
+  padding: 1rem 2rem;
+}
+
+.nav {
+  z-index: 3;
+  position: absolute;
+  color: white;
+  right: 5%;
+  background: transparent;
+}
+.nav a {
+  padding: 1rem;
+  color: rgb(231, 231, 231);
 }
