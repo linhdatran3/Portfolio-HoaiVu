@@ -1,0 +1,25 @@
+/* fine and print */
+.content {
+  display: flex;
+  padding: 0 2rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.content .price {
+  top: 0;
+  padding: 0 1rem;
+  width: 40%;
+}
+.content .price .content__price {
+  padding: 1rem 0;
+}
+.content .fine {
+  top: 0;
+  padding: 0 1rem;
+  width: 40%;
+}
+
+/* contact form */
+.contact {
+  padding: 2rem 0;
+}
