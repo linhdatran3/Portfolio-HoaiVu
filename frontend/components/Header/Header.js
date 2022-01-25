@@ -18,7 +18,7 @@ const Header = () => {
     setIsHomePage(["/", "/home"].includes(window.location.pathname));
     window.addEventListener("scroll", () => {
       const current = window.scrollY;
-      setScrollOver(current <= 50);
+      setScrollOver(current <= 700);
       setLogo(logo_xs);
       setLogoHeight(50);
       setLogoWidth(100);

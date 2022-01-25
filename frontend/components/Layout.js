@@ -5,14 +5,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Portfolio Hoai VU</title>
+        <title>Portfolio Hoai Vu</title>
       </Head>
       <Header />
-      <div
-      // style={{ marginTop: "60px" }}
-      >
-        {children}
-      </div>
+      <div style={{ marginTop: "180px", marginBottom: "50px" }}>{children}</div>
       <Footer />
     </>
   );
